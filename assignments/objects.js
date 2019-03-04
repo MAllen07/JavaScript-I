@@ -39,14 +39,14 @@ const internC = {
   "gender": "M"
   }
 
-  const internC = {
+  const internD = {
     "id": 4,
     "name": "Gannie",
     "email": "gmartinson3@illinois.edu",
     "gender": "M"
     }
 
-    const internC = {
+    const internE = {
       "id": 5,
       "name": "Antonietta",
       "email": "adaine5@samsung.com",
@@ -61,14 +61,15 @@ const internC = {
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
-
+console.log(internA [name]);
 // Kennan's ID
-
+console.log(internB [id]);
 // Keven's email
-
+console.log(internC[email]);
 // Gannie's name
-
+console.log(internD [name]);
 // Antonietta's Gender
+console.log(intenE[gender]);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
