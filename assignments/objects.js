@@ -25,7 +25,7 @@ const internA= {
 "gender": "F"
 
 }
-const internB = {
+const kennan = {
 "id": 2,
 "name": "Kennan",
 "email": "kdiben1@tinypic.com",
@@ -61,22 +61,28 @@ const internC = {
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
-console.log(internA [name]);
+console.log(internA.name);
 // Kennan's ID
-console.log(internB [id]);
+console.log(kennan.id);
 // Keven's email
-console.log(internC[email]);
+console.log(internC.email);
 // Gannie's name
-console.log(internD [name]);
+console.log(internD.name);
 // Antonietta's Gender
-console.log(intenE[gender]);
+console.log(internE.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
-
+kennan.speak = function (){
+  return "Hello, my name is Kennan!";
+}
+console.log(kennan.speak());
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
+const multiply = (num1, num2)=> num1 *num2; {
+   console.log (multiply(3,4));
+}
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
